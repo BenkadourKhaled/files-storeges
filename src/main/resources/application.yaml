@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      database: file-storage
+      port: 27017
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 15MB
+
+server:
+  port: 8080
